@@ -1,0 +1,121 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Lokalizacje",
+        "description": "Wybierz osoby, trackery lub encje ze współrzędnymi GPS. Niedostępny GPS można skonfigurować.",
+        "data": {
+          "location_entities": "Encje lokalizacji"
+        }
+      },
+      "shops": {
+        "title": "Sklepy i filtry",
+        "description": "Nazwy i marki są porównywane dokładnie, bez uwzględniania wielkości liter i nadmiarowych spacji.",
+        "data": {
+          "shop_types": "Typy sklepów",
+          "name_filter": "Filtr nazw",
+          "names": "Nazwy sklepów lub marek"
+        }
+      },
+      "settings": {
+        "title": "Zasięg i aktualizacja",
+        "description": "Odświeżenie następuje po przemieszczeniu LUB upływie interwału. Cache: 5 min. Brak lub słaby GPS zachowuje ostatni wynik.",
+        "data": {
+          "radius": "Promień wyszukiwania",
+          "max_accuracy": "Maksymalny dopuszczalny błąd lokalizacji",
+          "allow_missing_accuracy": "Zezwalaj na lokalizację bez dokładności GPS",
+          "movement_threshold": "Minimalne przemieszczenie",
+          "minimum_query_interval": "Interwał odświeżania"
+        }
+      }
+    },
+    "error": {
+      "invalid_input": "Niepoprawne ustawienia.",
+      "no_entities": "Wybierz co najmniej jedną encję.",
+      "no_shop_types": "Wybierz co najmniej jeden typ.",
+      "no_names": "Podaj co najmniej jedną nazwę."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Lokalizacje",
+        "description": "Wybierz osoby, trackery lub encje ze współrzędnymi GPS. Niedostępny GPS można skonfigurować.",
+        "data": {
+          "location_entities": "Encje lokalizacji"
+        }
+      },
+      "shops": {
+        "title": "Sklepy i filtry",
+        "description": "Nazwy i marki są porównywane dokładnie, bez uwzględniania wielkości liter i nadmiarowych spacji.",
+        "data": {
+          "shop_types": "Typy sklepów",
+          "name_filter": "Filtr nazw",
+          "names": "Nazwy sklepów lub marek"
+        }
+      },
+      "settings": {
+        "title": "Zasięg i aktualizacja",
+        "description": "Odświeżenie następuje po przemieszczeniu LUB upływie interwału. Cache: 5 min. Brak lub słaby GPS zachowuje ostatni wynik.",
+        "data": {
+          "radius": "Promień wyszukiwania",
+          "max_accuracy": "Maksymalny dopuszczalny błąd lokalizacji",
+          "allow_missing_accuracy": "Zezwalaj na lokalizację bez dokładności GPS",
+          "movement_threshold": "Minimalne przemieszczenie",
+          "minimum_query_interval": "Interwał odświeżania"
+        }
+      }
+    },
+    "error": {
+      "invalid_input": "Niepoprawne ustawienia.",
+      "no_entities": "Wybierz co najmniej jedną encję.",
+      "no_shop_types": "Wybierz co najmniej jeden typ.",
+      "no_names": "Podaj co najmniej jedną nazwę."
+    }
+  },
+  "selector": {
+    "name_filter": {
+      "options": {
+        "all": "Wszystkie",
+        "include": "Tylko wskazane",
+        "exclude": "Wyklucz wskazane"
+      }
+    },
+    "shop_types": {
+      "options": {
+        "all": "Wszystkie typy sklepów",
+        "supermarket": "Supermarket",
+        "convenience": "Sklep spożywczy",
+        "department_store": "Dom towarowy",
+        "mall": "Centrum handlowe",
+        "bakery": "Piekarnia",
+        "butcher": "Sklep mięsny",
+        "greengrocer": "Warzywniak",
+        "chemist": "Drogeria",
+        "pharmacy": "Apteka (shop=pharmacy)",
+        "clothes": "Odzież",
+        "shoes": "Obuwie",
+        "electronics": "Elektronika",
+        "hardware": "Sklep narzędziowy",
+        "doityourself": "Market budowlany",
+        "furniture": "Meble",
+        "mobile_phone": "Telefony",
+        "computer": "Komputery",
+        "pet": "Sklep zoologiczny",
+        "sports": "Sport",
+        "bicycle": "Rowery",
+        "car": "Samochody",
+        "car_parts": "Części samochodowe",
+        "beauty": "Uroda",
+        "cosmetics": "Kosmetyki",
+        "variety_store": "Sklep wielobranżowy",
+        "discount": "Dyskont",
+        "general": "Sklep ogólny",
+        "kiosk": "Kiosk",
+        "books": "Księgarnia",
+        "stationery": "Artykuły papiernicze",
+        "toys": "Zabawki"
+      }
+    }
+  }
+}

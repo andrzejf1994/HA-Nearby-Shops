@@ -1,0 +1,121 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Locations",
+        "description": "Select people, trackers or entities with GPS coordinates. Offline trackers can be configured.",
+        "data": {
+          "location_entities": "Location entities"
+        }
+      },
+      "shops": {
+        "title": "Shops and filters",
+        "description": "Names and brands match exactly, ignoring case and extra whitespace.",
+        "data": {
+          "shop_types": "Shop types",
+          "name_filter": "Name filter",
+          "names": "Shop names or brands"
+        }
+      },
+      "settings": {
+        "title": "Range and updates",
+        "description": "Movement OR elapsed interval triggers refresh. Cache: 5 minutes. Missing or poor GPS retains the last result.",
+        "data": {
+          "radius": "Search radius",
+          "max_accuracy": "Maximum allowed location error",
+          "allow_missing_accuracy": "Allow locations without GPS accuracy",
+          "movement_threshold": "Movement threshold",
+          "minimum_query_interval": "Refresh interval"
+        }
+      }
+    },
+    "error": {
+      "invalid_input": "Invalid settings.",
+      "no_entities": "Select at least one entity.",
+      "no_shop_types": "Select at least one shop type.",
+      "no_names": "Enter at least one name."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Locations",
+        "description": "Select people, trackers or entities with GPS coordinates. Offline trackers can be configured.",
+        "data": {
+          "location_entities": "Location entities"
+        }
+      },
+      "shops": {
+        "title": "Shops and filters",
+        "description": "Names and brands match exactly, ignoring case and extra whitespace.",
+        "data": {
+          "shop_types": "Shop types",
+          "name_filter": "Name filter",
+          "names": "Shop names or brands"
+        }
+      },
+      "settings": {
+        "title": "Range and updates",
+        "description": "Movement OR elapsed interval triggers refresh. Cache: 5 minutes. Missing or poor GPS retains the last result.",
+        "data": {
+          "radius": "Search radius",
+          "max_accuracy": "Maximum allowed location error",
+          "allow_missing_accuracy": "Allow locations without GPS accuracy",
+          "movement_threshold": "Movement threshold",
+          "minimum_query_interval": "Refresh interval"
+        }
+      }
+    },
+    "error": {
+      "invalid_input": "Invalid settings.",
+      "no_entities": "Select at least one entity.",
+      "no_shop_types": "Select at least one shop type.",
+      "no_names": "Enter at least one name."
+    }
+  },
+  "selector": {
+    "name_filter": {
+      "options": {
+        "all": "All",
+        "include": "Include only",
+        "exclude": "Exclude"
+      }
+    },
+    "shop_types": {
+      "options": {
+        "all": "All shop types",
+        "supermarket": "Supermarket",
+        "convenience": "Convenience",
+        "department_store": "Department store",
+        "mall": "Mall",
+        "bakery": "Bakery",
+        "butcher": "Butcher",
+        "greengrocer": "Greengrocer",
+        "chemist": "Chemist",
+        "pharmacy": "Pharmacy",
+        "clothes": "Clothes",
+        "shoes": "Shoes",
+        "electronics": "Electronics",
+        "hardware": "Hardware",
+        "doityourself": "Doityourself",
+        "furniture": "Furniture",
+        "mobile_phone": "Mobile phone",
+        "computer": "Computer",
+        "pet": "Pet",
+        "sports": "Sports",
+        "bicycle": "Bicycle",
+        "car": "Car",
+        "car_parts": "Car parts",
+        "beauty": "Beauty",
+        "cosmetics": "Cosmetics",
+        "variety_store": "Variety store",
+        "discount": "Discount",
+        "general": "General",
+        "kiosk": "Kiosk",
+        "books": "Books",
+        "stationery": "Stationery",
+        "toys": "Toys"
+      }
+    }
+  }
+}

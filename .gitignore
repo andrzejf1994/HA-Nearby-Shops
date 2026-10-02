@@ -1,0 +1,14 @@
+.venv/
+.validation/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+branding
+docs
+scripts
+pyproject.toml
+requirements.txt
+VALIDATION.md
